@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HoenScanner" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.skyscanner.HoenScannerApplication" />
+    <module name="hoen-scanner-main" />
+    <option name="PROGRAM_PARAMETERS" value="server config.yml" />
+    <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+      <option name="credential" />
+      <option name="region" />
+      <option name="useCurrentConnection" value="false" />
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
